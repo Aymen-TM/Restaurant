@@ -1,0 +1,16 @@
+.app__menuitem{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.app__meniitem-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app__menuitem-dash{
+    width: 119px;
+    height: 1px;
+    background-color: var(--color-golden);
+}
