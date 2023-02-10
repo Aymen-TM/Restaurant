@@ -11,5 +11,8 @@
     .app__awards{
         flex-direction: column;
     }
+    .app__wrapper_img img{
+        width: 80%;
+    }
 
 }

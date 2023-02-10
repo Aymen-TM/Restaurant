@@ -10,7 +10,7 @@ const AwardItem = ({data}) => {
         </div>
         <div className='app__awarditem-content'>
             <h5 className='p__cormorant' style={{color:"#DCCA87"}}>{data.title}</h5>
-            <p className='p__opensans'>{data.subtitle}</p>
+            <p className='p__opensans' style={{color:"#AAAAAA"}}>{data.subtitle}</p>
         </div>
     </div>
   )
