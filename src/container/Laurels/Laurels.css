@@ -1,0 +1,15 @@
+.app__laurels-content{
+    display: flex;
+}
+.app__awards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:450px) {
+    .app__awards{
+        flex-direction: column;
+    }
+
+}
