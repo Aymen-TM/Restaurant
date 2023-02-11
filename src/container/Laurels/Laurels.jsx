@@ -6,7 +6,7 @@ import { SubHeading } from '../../components';
 import AwardItem from '../../components/AwardItem/AwardItem';
 
 const Laurels = () => (
-  <div className='app__laurels app__wrapper app__bg section__padding '>
+  <div className='app__laurels app__wrapper app__bg section__padding ' id='laurels'>
       <div className='app__wrapper_info'>
         <SubHeading title={"Awards & recognition"} />
         <h1 className='headtext__cormorant'>Our Laurels</h1>

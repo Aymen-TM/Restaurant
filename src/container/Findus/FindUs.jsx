@@ -4,7 +4,7 @@ import { images ,data} from '../../constants';
 import { SubHeading } from '../../components';
 
 const FindUs = () => (
-  <div className='app__bg app__wrapper section__padding flex__center'>
+  <div className='app__bg app__wrapper section__padding flex__center' id='findus'>
     <div className='app__wrapper_info'>
       <SubHeading title={"Contact"} />
       <h1 className='headtext__cormorant' style={{marginBottom:"3rem"}}>Find Us</h1>
