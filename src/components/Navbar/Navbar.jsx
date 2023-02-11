@@ -32,11 +32,11 @@ const Navbar = () => {
       <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
         <MdOutlineRestaurantMenu className="overlay__close" onClick={()=>{setToggle(false)}} />
         <ul className='app__navbar-smallscreen_links'>
-          <li className='p__opensans'><a href="#home">home</a></li>
-          <li className='p__opensans'><a href="#about">about</a></li>
-          <li className='p__opensans'><a href="#menu">menu</a></li>
-          <li className='p__opensans'><a href="#awards">awards</a></li>
-          <li className='p__opensans'><a href="#contact">contact</a></li>
+          <li className='p__opensans' onClick={()=>{setToggle(false)}}><a href="#home" >home</a></li>
+          <li className='p__opensans' onClick={()=>{setToggle(false)}}><a href="#about">about</a></li>
+          <li className='p__opensans' onClick={()=>{setToggle(false)}}><a href="#menu">menu</a></li>
+          <li className='p__opensans' onClick={()=>{setToggle(false)}}><a href="#awards">awards</a></li>
+          <li className='p__opensans' onClick={()=>{setToggle(false)}}><a href="#contact">contact</a></li>
         </ul>
       </div>
       }
