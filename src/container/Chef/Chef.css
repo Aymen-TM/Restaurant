@@ -16,6 +16,9 @@
     width: 47px;
     height: 40px;
 }
+.app__chef-content_quote{
+    max-width: 600px;
+}
 
 .app__chef-sign{
     margin-top: 4rem;
